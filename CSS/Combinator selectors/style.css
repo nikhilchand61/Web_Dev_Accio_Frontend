@@ -1,0 +1,60 @@
+/* descendant selectors (space) */
+
+/* child selector (>) */
+span > p{
+    color: palevioletred;
+}
+/* adjacent sibling selector (+) */
+div + p{
+    color: red;
+}
+/* general sibling selector (~) */
+div ~ p{
+    color: orangered;
+}
+/* Psuedo-class selectors */
+/* temporary state of an element */
+/*  :hover
+    :active
+    :link
+    :visited
+     */
+.btn{
+    background-color: orange;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+.read:active{
+    color: orangered;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color: green;
+}
+/* Psuedo-element selectors */
+/* used to style specific parts of an element */
+/*  ::first-line
+    ::before
+    ::after
+    ::first-letter
+    ::marker */
+p::first-line{
+    color: black;
+}
+p::first-letter{
+    color: green;
+}
+p::before{
+    content: "-----before-----";
+}
+p::after{
+    content: "-----after-----";
+}
