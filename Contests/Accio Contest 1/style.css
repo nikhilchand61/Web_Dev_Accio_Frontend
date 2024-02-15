@@ -1,0 +1,22 @@
+*{
+    font-family: 'Inter';
+}
+h1{
+    font-size: 30px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.details{
+    border: 1px solid #000000;
+    padding: 25px;
+    margin: 15px 15px 0px 15px;
+}
+.images, .trivia{
+    padding: 25px;
+    margin: -30px 15px 0px 15px;
+}
+.images img{
+    width: 500px;
+    margin-bottom: 15px;
+}
