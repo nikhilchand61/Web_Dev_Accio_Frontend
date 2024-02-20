@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    /> -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <div class="media"></div>
+    <h1>Container</h1>
+    <div class="container-fluid">
+      <!-- container-md border border-2 -->
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis
+      magni dolores reprehenderit ipsam aspernatur praesentium fuga? Officiis
+      eos, similique laborum quos alias illo voluptate nisi aperiam consequuntur
+      quibusdam. Ad adipisci tenetur quas, consectetur ut quo. Facere, eveniet
+      nulla. Eaque consequatur deleniti ea quos, est consequuntur quas numquam
+      mollitia debitis blanditiis neque optio adipisci dolores sed ex aliquid
+      autem, harum officiis. Voluptatibus, rerum. Quod commodi hic eum quo odio
+      totam alias eveniet saepe asperiores, facilis quibusdam in mollitia
+      ducimus provident modi placeat iure ea! Error omnis quisquam accusantium
+      iure quibusdam totam, a consequuntur eum quasi dolorum accusamus ut
+      doloribus debitis quis?
+    </div>
+    <h1>Grid in Bootstrap</h1>
+    <div class="container border border-5 border-info">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-6 test">2</div>
+      </div>
+    </div>
+    <h1>Buttons</h1>
+    <div class="container">
+      <button class="btn btn-danger">Danger</button>
+      <button class="btn btn-info">Info</button>
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-warning">Warning</button>
+      <button class="btn btn-dark">Dark</button>
+      <button class="btn btn-light">Light</button>
+
+      <button class="btn btn-outline-danger">Outlined button</button>
+      <button class="btn btn-block">Block button</button>
+      <br />
+      <div class="btn-group my-5">
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-info">Info</button>
+      </div>
+    </div>
+    <h1>Texts</h1>
+    <span class="text-muted">Muted Text</span>
+    <span class="text-danger">Danger Text</span>
+    <h1>Forms in Bootstrap</h1>
+    <div class="container my-5 border border-5 border-primary py-5">
+      <div class="row">
+        <!-- <div class="col-2"></div> -->
+        <form class="col-8 offset-2">
+          <div class="form group">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" id="username" class="form-control is-valid" />
+            <small class="form-text">Username is invalid</small>
+          </div>
+          <div class="input-group">
+            <button class="btn btn-danger">-</button>
+            <input type="text" class="form-control" />
+            <input type="text" class="form-control" />
+            <button class="btn btn-primary">+</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <h1>Cards</h1>
+    <div class="container my-5">
+      <div class="row justify-content-between">
+        <div class="col-xl-3 col-md-4 col-sm-6">
+          <div class="card">
+            <div class="card-header"><h1>Header of the card</h1></div>
+            <div class="card-body">
+              <img src="./cam.jpeg" alt="cam" class="card-img-top">
+              <h1 class="card-title">Title</h1>
+              <h5 class="card-subtitle">Subtitle</h5>
+            </div>
+            <div class="card-footer">This is the footer of the card</div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-6">
+          <div class="card">
+            <div class="card-header"><h1>Header of the card</h1></div>
+            <div class="card-body">
+              <h1 class="card-title">Title</h1>
+              <h5 class="card-subtitle">Subtitle</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                quam exercitationem blanditiis officiis. Ut, rerum.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn text-info">See more</a>
+              <a href="#" class="btn text-danger">Show more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1>Modal</h1>
+  </body>
+</html>
